@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body { background-color:pink;}
+h2 {text-align: center;font-family: 'Trebuchet MS', sans-serif;}
+.container {background-color: rgb(97, 246, 246);}
+button {text-align: center;height:35px;width:300px;color: white;background-color: green; border:none; cursor:pointer;margin-left:560px;border-radius:17.5px;}
+button:hover {opacity:0.9;}
+p {margin-left:50px;}
+</style>
+</head>
+<body>
+    <div class="container">
+    <br><br>
+    <h2>Student Registeration Form</h2><hr>
+        <form>
+            <p>Firstname:</p>
+            <p><input name="fname" type="text" size="50" maxlength="20" placeholder="Firstname"></p>
+            <p>Middlename:</p>
+            <p><input name="fname" type="text" size="50" maxlength="20" placeholder="Middlename"></p>
+            <p>Lastname:</p>
+            <p><input name="lname" type="text" size="50" maxlength="20" placeholder="Lastname"></p>
+            <p><label>Course :</label>
+            <select>
+                <option>
+                    Computer Science and Engineering
+                </option>
+                <option selected>
+                    Mechanical Engineering
+                </option>
+                <option>
+                    Electrical and Electronics Engineering
+                </option>
+                <option>
+                    Civil Engineering
+                </option>
+                <option>
+                    Electronics and Communication Engineering
+                </option>
+            </select></p>
+            <p>Gender :</p>
+            <p><input name="m" type="radio">Male<input name="f" type="radio">Female<input name="othr" type="radio">Other</p>
+            <p>Phone :</p>
+            <p><input name="sample" type="text" size="50" value="+91" disabled><br>
+            <p><input name="phn" type="text" size="50" placeholder="Phone no." maxlength="10"></p>
+            <p>Current Address :</p>
+            <p><textarea rows="6" cols="47">Current Address</textarea></p>
+            <p><b>Email</b></p>
+            <p><input name="email" type="email" placeholder="Enter Email" size="50" required></p>
+            <p><b>Password</b></p>
+            <p><input name="pwd" type="password" size="50" placeholder="Enter Password" required></p>
+            <p><b>Retype-Password</b></p>
+            <p><input name="repwd" type="password" size="50" placeholder="Retype Password" required></p><br><br>
+            <button>Register</button><br><br>
+
+        </form>
+    </div>
+</body>
+</html>
